@@ -240,7 +240,7 @@ header {visibility: hidden;}
 # =============================================================
 # CONFIG
 # =============================================================
-MODEL_DIR = "./models"
+MODEL_DIR = r"E:\VARTAlaabh\models"
 LSTM_PATH = f"{MODEL_DIR}/isl_lstm_v2.h5"
 TRANS_PATH = f"{MODEL_DIR}/isl_transformer_v2.h5"
 SCALER_PATH = f"{MODEL_DIR}/scaler.pkl"
@@ -248,7 +248,7 @@ LABEL_MAP_PATH = (
     f"{MODEL_DIR}/isl_label_mapping_751.json"  # must match agent1_inference.py
 )
 ENSEMBLE_CFG = f"{MODEL_DIR}/ensemble_config.json"
-VIDEO_DIR = "./data/ISL_Dictionary"
+VIDEO_DIR = "E:\VARTAlaabh\ISLRTC_DATA"
 WHISPER_MODEL = "base"
 ARDUINO_PORT = "COM3"  # ← update to your port
 ARDUINO_BAUD = 9600
