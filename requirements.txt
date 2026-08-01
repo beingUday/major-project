@@ -21,8 +21,7 @@
 
 
 # ── Core ML (Agent 1) ────────────────────────────────────────
-tensorflow==2.13.0
-keras==2.13.1
+tensorflow>=2.13,<2.16
 scikit-learn==1.3.2
 
 # ── Speech to Text (Agent 2) ─────────────────────────────────
