@@ -1,0 +1,13 @@
+{
+  "w_lstm": 0.2,
+  "w_trans": 0.8,
+  "confidence_threshold": 0.5,
+  "lstm_acc": 0.511400651465798,
+  "trans_acc": 0.8469055374592834,
+  "ensemble_acc": 0.8534201954397395,
+  "n_classes": 75,
+  "input_shape": [
+    30,
+    210
+  ]
+}
